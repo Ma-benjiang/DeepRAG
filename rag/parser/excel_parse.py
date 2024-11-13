@@ -38,7 +38,6 @@ class ExcelParser:
 
             tb += "</table>"
             tb_chunks.append(tb)
-
         return ''.join(tb_chunks)
 if __name__ == "__main__":
     
